@@ -17,7 +17,8 @@
 name: K3 firmware compile
 
 on:
- 
+  watch:
+   types: started
   schedule:
     - cron: 0 8 * * 5
 
